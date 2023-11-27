@@ -22,7 +22,7 @@ const Filters: React.FC<FiltersProps> = ({ setColors, originalUsers, setUsers, s
         <button className='btn' onClick={() => {
           setUsers(originalUsers.current)
         }}> Reset State </button>
-        <input type="text" className='input-search' onChange={(e) => {
+        <input type="text" className='input-search' placeholder='Search by country' onChange={(e) => {
           setSearchCountry(e.target.value)
         }} />
     </div>
