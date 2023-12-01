@@ -40,7 +40,7 @@ function App () {
   }, [isCountry, searchCountry, users])
   return (
     <div className="App">
-      <h1 className='page-title'>Prueba Técnica</h1>
+      <h1 className='page-title'>Employees Table</h1>
       <nav>
         <Filters setColors={setColors} originalUsers={originalUsers} setUsers={setUsers} users={sortedUsers} setIsCountry={setIsCountry} isCountry={isCountry} setSearchCountry={setSearchCountry} />
       </nav>
